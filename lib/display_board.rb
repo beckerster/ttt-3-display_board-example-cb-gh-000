@@ -1,6 +1,6 @@
 def display_board
-  cell = "   "
+  cell = ["   ","   ","   ","   ","   ","   ","   ","   ","   "]
   sep = "|"
   dash = "-"
-  print cell sep cell
+  print cell
 end
