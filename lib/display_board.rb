@@ -1,3 +1,4 @@
 def display_board
-  print "   ","|","   ","|"
+  cell = "   "
+  3.times { print cell}
 end
