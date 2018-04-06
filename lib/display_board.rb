@@ -1,4 +1,6 @@
 def display_board
   cell = "   "
-  3.times { print cell}
+  sep = "|"
+  dash = "-"
+  print cell sep cell
 end
