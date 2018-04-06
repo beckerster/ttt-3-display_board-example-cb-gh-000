@@ -1,9 +1,13 @@
 def display_board
-  row = "   |   |   "
+  cell = "   "
+  sep = "|"
   line = "-----------"
-  puts row
+  print cell, sep, cell, sep
+  puts cell
   puts line
-  puts row
+  print cell, sep, cell, sep
+  puts cell
   puts line
-  puts row
+  print cell, sep, cell, sep
+  puts cell
 end
