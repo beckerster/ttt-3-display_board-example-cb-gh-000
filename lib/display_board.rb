@@ -1,6 +1,5 @@
 def display_board
   cell = ["   ","   ","   ","   ","   ","   ","   ","   ","   "]
-  sep = "|"
-  dash = "-"
-  print cell
+puts cell[0]  
+ 
 end
